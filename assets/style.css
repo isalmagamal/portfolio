@@ -691,6 +691,17 @@ img.logo-footer {
     display: flex;
     flex-direction: column;
 }
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgb(255 255 255 / 40%) 0px 2px 4px, rgb(182 180 180 / 30%) 0px 7px 13px -3px, rgb(255 255 255 / 20%) 0px -3px 0px inset;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
 /*************************************Responsive***********************************/
 @media (max-width:1450px){
 
